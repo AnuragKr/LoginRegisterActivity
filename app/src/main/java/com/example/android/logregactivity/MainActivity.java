@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText inputUsername;
     private EditText inputPassword;
     AlertDialog.Builder builder;
-    String reg_url = "http://192.168.2.3/login.php";
+    String reg_url = "http://localhost/login.php";//URL for interacting with server
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
